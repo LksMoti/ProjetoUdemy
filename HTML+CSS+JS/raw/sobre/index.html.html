@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap-grid.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <title>Page sobre</title>
+
+</head>
+
+<body>
+    <div class="jl-trigger-topbar"></div>
+    <div class="border-top-left"></div>
+    <div class="border-bottom-right"></div>
+    <div class="jl-preloader">
+
+        <div class="jl-preloader-inner">
+            <img src="../images/lemon-loader.svg" class="jl-mar-bottom-15">
+            <p class="jl-text-light jl-mar-top-15">Aguarde um poquinho ... Estou preparando a limonada</p>
+
+        </div>
+
+    </div>
+
+
+    <div class="jl-menu-overlay jl-toggle-menu"></div>
+
+    <div class="jl-modal jl-bg-black" id="jl-modal-orcamento">
+        <div class="jl-modal-header">
+            <h1 class="jl-title jl-text-green">
+                Solicite um orçamento
+            </h1>
+
+            <button class="jl-close-modal  jl-toggle-modal">
+                X
+            </button>
+        </div>
+
+        <div class="jl-modal-body">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p class="jl-text-light">Por favor informe os dados abaixo e eu entrarei em contato com você o mais breve possível.
+                    </p>
+                </div>
+            </div>
+            <div class="row jl-mar-top-15">
+                <div class="col-sm-12">
+                    <form class="jl-form">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6 jl-mar-bottom-15">
+                                <label for="Nome" class="jl-text-light">Nome</label>
+                                <input type="text" name="Nome" id="jl-nome" class="jl-field" />
+                            </div>
+                            <div class="col-sm-12 col-md-6 jl-mar-bottom-15">
+                                <label for="Email" class="jl-text-light">Email</label>
+                                <input type="email" name="Email" id="jl-email" class="jl-field" />
+                            </div>
+                            <div class="col-sm-12 col-md-6 jl-mar-bottom-15">
+                                <label for="Telefone" class="jl-text-light">Telefone</label>
+                                <input type="tel" name="Telefone" id="jl-telefone" class="jl-field" />
+                            </div>
+                            <div class="col-sm-12 col-md-6 jl-mar-bottom-15">
+                                <label for="Site" class="jl-text-light">Site</label>
+                                <input type="text" name="Site" id="jl-site" class="jl-field" />
+                            </div>
+                            <div class="col-sm-12 col-md-12 jl-mar-top-15 jl-mar-bottom-15">
+                                <label for="Mensagem" class="jl-text-light">Descreva abaixo o projeto na qual você
+                                    precisa de orçamento:</label>
+                                <textarea id="jl-mensagem" name="Mensagem" rows="8" class="jl-textarea"></textarea>
+                            </div>
+                        </div>
+                        <div class="row justify-content-end">
+                            <div class="col-sm-12 col-md-6 jl-mar-top-15">
+                                <button class="jl-btn jl-btn-large jl-btn-green jl-btn-block">Enviar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header class="jl-topbar">
+
+        <div class="jl-logo jl-logo-big">
+            <img src="../images/logo.svg" alt=" Logo João Lemon UX/UI Designer" />
+        </div>
+
+        <nav class="jl-menu">
+            <a href="../index.html">HOME</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="sobre.html">SOBRE</a>
+        </nav>
+
+    </header>
+
+    <button class="jl-btn-menu-mob jl-toggle-menu">
+        <ion-icon name="menu"></ion-icon>
+    </button>
+
+    <nav class="jl-menu-mob jl-menu-is-closed">
+        <a href="../index.html">HOME</a>
+        <a href="portfolio.html">PROJETOS</a>
+        <a href="sobre.html">SOBRE</a>
+    </nav>
+
+    <div class="jl-contact-info jl-bg-black jl-text-light">
+
+        <div class="jl-contact-info-iner">
+
+            <h2 class="jl-title jl-text-green">Contato</h1>
+
+                <p>hello@joaolemon.com</p>
+                <p>+55 (11) 9 5072 9100</p>
+
+                <div class="jl-social-link">
+
+                    <a href="#" class="jl-social">
+                        <img src="../images/icon-instagram.svg" alt="Instagram">
+                    </a>
+
+                    <a href="#" class="jl-social">
+                        <img src="../images/icon-twitter.svg" alt="Twitter">
+                    </a>
+
+                    <a href="#" class="jl-social">
+                        <img src="../images/icon-dribbble.svg" alt="Dribbble">
+                    </a>
+
+                </div>
+        </div>
+
+        <div class="jl-corner"></div>
+
+    </div>
+
+    <button class="jl-btn-contact"></button>
+
+    <div class="jl-page-wrapper">
+        <section class="jl-section-offset-top jl-section-sobre">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-4 order-2 order-lg-1 jl-avatar-sobre">
+                        <div class="jl-box-img">
+                            <img src="../images/joao-lemon-designer-sobre.png" alt="João Lemon Sobre" title="João Lemon Sobre" class="jl-img-responsive">
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-8 order-1 order-lg-2">
+                        <div class="jl-titulo-sobre jl-mar-bottom-30">
+                            <h1 class="jl-title jl-title-xl jl-text-light">João <span class="jl-text-green">Lemon</span> </h1>
+                        </div>
+                        <div class="jl-info-sobre jl-text-light">
+                            <h4 class='jl-subtitle jl-text-green jl-mar-bottom-15'>Um pouco sobre mim</h4>
+                            <p>Nulla pellentesque sed nulla vel iaculis. Pellentesque dignissim fringilla urna. Nulla vulputate, ex in tincidunt consequat, dui metus luctus purus, ut dapibus quam augue sit amet leo. Phasellus sit amet purus in elit efficitur
+                                viverra. Cras fermentum velit sit amet odio lacinia, ut auctor leo suscipit. Ut malesuada ex ante, quis imperdiet dui luctus euismod. Ut quis dapibus lectus. Vivamus volutpat sapien a est auctor viverra.</p>
+
+                            <div class="jl-contact-info-iner jl-mar-top-30 ">
+
+                                <div class="jl-social-links-circle jl-mar-bottom-15">
+
+                                    <a href="#" class="jl-social jl-btn-green jl-text-black jl-mar-right-30">
+                                        <ion-icon name="logo-instagram"></ion-icon>
+                                    </a>
+
+                                    <a href="#" class="jl-social jl-btn-green jl-text-black jl-mar-right-30">
+                                        <ion-icon name="logo-twitter"></ion-icon>
+                                    </a>
+
+                                    <a href="#" class="jl-social jl-btn-green jl-text-black jl-mar-right-30">
+                                        <ion-icon name="logo-dribbble"></ion-icon>
+                                    </a>
+
+                                </div>
+                                <p class="jl-mar-bottom-15">hello@ <span class="jl-text-green">joaolemon</span>.com</p>
+                                <p>+55 (11) 9 5072 9100</p>
+                            </div>
+                        </div>
+                        <div class="jl-premios-sobre">
+                            <h4 class='jl-subtitle jl-text-green jl-mar-bottom-15'>Prêmios e Reconhecimentos</h4>
+                            <ul class="jl-text-light jl-page-list">
+                                <li>Awwwards Site of the day</li>
+                                <li>CSS Mania</li>
+                                <li>FWA Site of the day</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../js/script.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
